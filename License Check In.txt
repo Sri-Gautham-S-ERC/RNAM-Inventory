@@ -1,0 +1,88 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\ejmmnnx\OrderCare\designer\env>checkInLicense.cmd
+
+C:\Users\ejmmnnx\OrderCare\designer\env>rem check in (return) license to RMS ser
+ver
+
+C:\Users\ejmmnnx\OrderCare\designer\env>call "C:\Users\ejmmnnx\OrderCare\designe
+r\env\\setvar.cmd"
+
+C:\Users\ejmmnnx\OrderCare\designer\env>set CWOC_PATH=C:\Users\ejmmnnx\OrderCare
+
+
+C:\Users\ejmmnnx\OrderCare\designer\env>set CW_JAVA_HOME=C:\Program Files\Java\j
+dk1.7.0_79
+
+C:\Users\ejmmnnx\OrderCare\designer\env>set JAVA_OPTS=-Xms3072m -Xmx3072m -XX:Ma
+xPermSize=512m -Dcom.conceptwave.licenseDir="C:\Users\ejmmnnx\OrderCare\designer
+\env" -Dcom.conceptwave.modules.path="C:\Users\ejmmnnx\OrderCare\modules"
+
+C:\Users\ejmmnnx\OrderCare\designer\env>set JMX_PORT=10008
+
+C:\Users\ejmmnnx\OrderCare\designer\env>set JMX_OPTS=-Dcom.sun.management.jmxrem
+ote.port=10008 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.manag
+ement.jmxremote.ssl=false
+
+C:\Users\ejmmnnx\OrderCare\designer\env>set CLASSPATH=C:\Users\ejmmnnx\OrderCare
+\designer\Designer.jar;C:\Users\ejmmnnx\OrderCare\lib\oracle\ojdbc6.jar;C:\Users
+\ejmmnnx\OrderCare\lib\oracle\orai18n.jar;C:\Users\ejmmnnx\OrderCare\lib\oracle\
+orai18n-mapping.jar;C:\Users\ejmmnnx\OrderCare\lib\ilog\sdworkflowmodeler.deploy
+ed.jar;C:\Users\ejmmnnx\OrderCare\lib\axis2\addressing-1.41.mar;C:\Users\ejmmnnx
+\OrderCare\lib\axis2\rampart-1.5.mar;C:\Users\ejmmnnx\OrderCare\lib\axis2\mex-1.
+4.1.mar;C:\Users\ejmmnnx\OrderCare\lib\axis2\wstx-asl-3.2.4.jar;C:\Users\ejmmnnx
+\OrderCare\lib\axis2\rampart-core-1.5.jar;C:\Users\ejmmnnx\OrderCare\lib\axis2\r
+ampart-policy-1.5.jar;C:\Program Files\Java\jdk1.7.0_79\lib\jfxrt.jar;C:\Program
+ Files\Java\jdk1.7.0_79\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\
+lib\jfxrt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext\jfxrt.jar;
+
+C:\Users\ejmmnnx\OrderCare\designer\env>"C:\Program Files\Java\jdk1.7.0_79\bin\j
+ava" -Xms3072m -Xmx3072m -XX:MaxPermSize=512m -Dcom.conceptwave.licenseDir="C:\U
+sers\ejmmnnx\OrderCare\designer\env" -Dcom.conceptwave.modules.path="C:\Users\ej
+mmnnx\OrderCare\modules" -cp "C:\Users\ejmmnnx\OrderCare\designer\Designer.jar;C
+:\Users\ejmmnnx\OrderCare\lib\oracle\ojdbc6.jar;C:\Users\ejmmnnx\OrderCare\lib\o
+racle\orai18n.jar;C:\Users\ejmmnnx\OrderCare\lib\oracle\orai18n-mapping.jar;C:\U
+sers\ejmmnnx\OrderCare\lib\ilog\sdworkflowmodeler.deployed.jar;C:\Users\ejmmnnx\
+OrderCare\lib\axis2\addressing-1.41.mar;C:\Users\ejmmnnx\OrderCare\lib\axis2\ram
+part-1.5.mar;C:\Users\ejmmnnx\OrderCare\lib\axis2\mex-1.4.1.mar;C:\Users\ejmmnnx
+\OrderCare\lib\axis2\wstx-asl-3.2.4.jar;C:\Users\ejmmnnx\OrderCare\lib\axis2\ram
+part-core-1.5.jar;C:\Users\ejmmnnx\OrderCare\lib\axis2\rampart-policy-1.5.jar;C:
+\Program Files\Java\jdk1.7.0_79\lib\jfxrt.jar;C:\Program Files\Java\jdk1.7.0_79\
+lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfxrt.jar;C:\Program
+ Files\Java\jdk1.7.0_79\jre\lib\ext\jfxrt.jar;" com.conceptwave.license.RmsSdkCl
+ientHandler -checkin
+INFO  - License dir: C:\Users\ejmmnnx\OrderCare\designer\env
+INFO  - Repository server: 142.133.140.150
+INFO  - Platform: windows 7_amd64
+INFO  - Connecting to license server: 142.133.140.150
+INFO  - Feature mapping file directory: C:\Users\ejmmnnx\OrderCare\designer\env
+INFO  - Feature mapping file filter: [cm_14_r.ini, oc_14_r.ini]
+INFO  - Licensed features: [OrderAnalytics, AVM, ProductCatalog, DesignStudio, S
+erviceOrchestrationFramework, Velocity, OrderManagement, ServiceRegistry, Produc
+tAnalytics, CustomerInformationManagement, ProductLifecycleManagement, OrderNego
+tiations, CatalogManagement, UnifiedWorkstation, ServiceCatalog, ProductLifecycl
+eDesigner, CatalogDesigner]
+INFO  - CheckIn repository: [FAT1022928/25, FAT1022944/13, FAT1022944/7, FAT1022
+944/14, FAT1022944/10, FAT1022928/19, FAT1022928/18, FAT1022928/24, FAT1022928/2
+1, FAT1022928/23, FAT1022944/15, FAT1022928/15, FAT1022944/11, FAT1022928/22, FA
+T1022944/12, FAT1022928/20]
+INFO  - Check in feature: OrderAnalytics
+INFO  - Check in feature: AVM
+INFO  - Check in feature: ProductCatalog
+INFO  - Check in feature: DesignStudio
+INFO  - Check in feature: ServiceOrchestrationFramework
+INFO  - Check in feature: Velocity
+INFO  - Check in feature: OrderManagement
+INFO  - Check in feature: ServiceRegistry
+INFO  - Check in feature: ProductAnalytics
+INFO  - Check in feature: CustomerInformationManagement
+INFO  - Check in feature: ProductLifecycleManagement
+INFO  - Check in feature: CatalogManagement
+INFO  - Check in feature: OrderNegotiations
+INFO  - Check in feature: UnifiedWorkstation
+INFO  - Check in feature: ServiceCatalog
+INFO  - Check in feature: ProductLifecycleDesigner
+INFO  - Check in feature: CatalogDesigner
+
+C:\Users\ejmmnnx\OrderCare\designer\env>

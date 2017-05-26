@@ -1,0 +1,24 @@
+<form ng-show="emp.enableForm" ng-submit="">
+	<div class="text_div">
+			<span style="font-weight:bold;"> Name :&nbsp</span><input type="text"></span>&nbsp
+			<span style="font-weight:bold;"> Location :&nbsp</span><input type="text">
+	<br>&nbsp
+		<span style="font-weight:bold;"> EOC Exp :&nbsp</span><input type="text">
+		<span style="font-weight:bold;"> ECM Exp :&nbsp</span><input type="text">
+		<span style="font-weight:bold;"> Total Exp :&nbsp</span><input type="text">
+<br><br>&nbsp
+	<span style="font-weight:bold;"> Team Name :&nbsp&nbsp</span><input type="text">&nbsp
+	<span style="font-weight:bold;"> Project Name :&nbsp</span><input type="text">
+<br><br>&nbsp
+	<span style="font-weight:bold;"> Pool :&nbsp</span><input type="text">
+	<span style="font-weight:bold;"> Status :&nbsp</span><input type="text">
+<br><br>
+	<span style="font-weight:bold;"> CU :&nbsp&nbsp</span><input type="text">
+	<span style="font-weight:bold;"> EGI Line Manager :&nbsp</span><input type="text">
+</div>&nbsp
+	<div >
+	    <button class="btn btn-primary btnCustom" ng-click="ok()">OK</button>
+	    <button class="btn btn-primary btnCustom" ng-click="emp.cancel()">Cancel</button>
+	</div>
+</form>&nbsp
+<div ui-grid=emp.gridOptions class="myGrid" ui-grid-resize-columns ui-grid-move-columns ui-grid-pinning ui-grid-auto-resize ui-grid-pagination ui-grid-selection ui-grid-move-columns ui-grid-edit></div>

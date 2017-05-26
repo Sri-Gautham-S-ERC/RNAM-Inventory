@@ -1,0 +1,115 @@
+[{
+    "projId" : "5927160f15ff2323a44f30a5",
+    "projName" : "Charter-EXPO",
+    "start_dt" : "2016-05-01",
+    "end_dt" : " 2018-05-31",
+    "needGapDtls" : 
+        {
+		"year" : "2016",
+           "months" :
+		   {
+		   "Jan_Need" : "5",
+            "Jan_Gap" : "-1",
+            "Feb_Need" : "",
+            "Feb_Gap" : "",
+            "Mar_Need" : "",
+            "Mar_Gap" : "",
+            "Apr_Need" : "",
+            "Apr_Gap" : "",
+            "May_Need" : "",
+            "May_Gap" : "",
+            "Jun_Need" : "",
+            "Jun_Gap" : "",
+            "Jul_Need" : "",
+            "Jul_Gap" : "",
+            "Aug_Need" : "",
+            "Aug_Gap" : "",
+            "Sep_Need" : "",
+            "Sep_Gap" : "",
+            "Oct_Need" : "",
+            "Oct_Gap" : "",
+            "Nov_Need" : "",
+            "Nov_Gap" : "",
+            "Dec_Need" : "",
+            "Dec_Gap" : ""
+			}
+        }
+    
+},
+{
+    "projId" : "592715df15ff2323a44f30a4",
+    "projName" : "CTL",
+    "start_dt" : "2017-03-01",
+    "end_dt" : " 2018-05-31",
+    "needGapDtls" : 
+        {
+        "year" : "2016",
+           "months" :
+           {
+           "Jan_Need" : "5",
+            "Jan_Gap" : "0",
+            "Feb_Need" : "",
+            "Feb_Gap" : "",
+            "Mar_Need" : "",
+            "Mar_Gap" : "",
+            "Apr_Need" : "3",
+            "Apr_Gap" : "1",
+            "May_Need" : "",
+            "May_Gap" : "",
+            "Jun_Need" : "",
+            "Jun_Gap" : "4",
+            "Jul_Need" : "-2",
+            "Jul_Gap" : "",
+            "Aug_Need" : "",
+            "Aug_Gap" : "",
+            "Sep_Need" : "",
+            "Sep_Gap" : "",
+            "Oct_Need" : "",
+            "Oct_Gap" : "",
+            "Nov_Need" : "",
+            "Nov_Gap" : "",
+            "Dec_Need" : "",
+            "Dec_Gap" : ""
+            }
+        }
+    
+},
+{
+    "projId" : "592716ba15ff2323a44f30a6",
+    "projName" : "Charter - MVNE",
+    "start_dt" : "2017-03-01",
+    "end_dt" : " 2018-05-31",
+    "needGapDtls" : 
+        {
+        "year" : "2016",
+           "months" :
+           {
+           "Jan_Need" : "5",
+            "Jan_Gap" : "0",
+            "Feb_Need" : "",
+            "Feb_Gap" : "",
+            "Mar_Need" : "",
+            "Mar_Gap" : "",
+            "Apr_Need" : "3",
+            "Apr_Gap" : "1",
+            "May_Need" : "",
+            "May_Gap" : "",
+            "Jun_Need" : "",
+            "Jun_Gap" : "4",
+            "Jul_Need" : "-2",
+            "Jul_Gap" : "",
+            "Aug_Need" : "",
+            "Aug_Gap" : "",
+            "Sep_Need" : "",
+            "Sep_Gap" : "",
+            "Oct_Need" : "",
+            "Oct_Gap" : "",
+            "Nov_Need" : "",
+            "Nov_Gap" : "",
+            "Dec_Need" : "",
+            "Dec_Gap" : ""
+            }
+        }
+    
+}
+]
