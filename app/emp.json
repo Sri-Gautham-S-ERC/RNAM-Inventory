@@ -1,0 +1,31 @@
+[{
+    "signum" : "ezabeei",
+    "approvedbyRNAMOSS" : "Yes",
+    "CU"  : "CTL",
+    "location" : "Chennai",
+    "status" : "Committed",
+    "currentProjName" : "Charter-EXPO",
+    "currProjId" : "342342",
+    "Mapping_dtls" : [ 
+        {
+        "Year" : "2016",
+         "months" : 
+            {
+            "Jan" : "1.0",
+            "Feb" : "",
+            "Mar" : "",
+            "Apr" : "",
+            "May" : "1.0",
+            "Jun" : "",
+            "Jul" : "",
+            "Aug" : "",
+            "Sep" : "",
+            "Oct" : "",
+            "Nov" : "",
+            "Dec" : ""
+            }
+        }
+    ]
+}
+]
+ 
